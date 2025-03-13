@@ -1,0 +1,22 @@
+.mainmenu{
+    position: relative;
+    list-style: none;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    width: 100px;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+
+.mainmenu:hover .submenu {
+    display: block;
+
+}
+
